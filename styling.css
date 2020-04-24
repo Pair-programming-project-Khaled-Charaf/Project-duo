@@ -19,6 +19,7 @@ body{
 .navbar {
   
   font-family: Ink Free;
+  font-size: 20px;
   text-align: center;
   background-color: brown;
   position: fixed;
@@ -40,7 +41,7 @@ body{
 .Menu {
   float: left;
   overflow: hidden;
-  font-color: blue;
+  font-color: green;
 
 }
 
@@ -51,11 +52,12 @@ body{
   color: white;
   padding: 14px 16px;
   background-color: inherit;
-  font-family: Ink Free;
+  font-family: sans-serif;
 }
 
 .navbar #home:hover, .Menu:hover .dropbtn {
   background-color: blue;
+  cursor: pointer;
 }
 
 
@@ -64,6 +66,7 @@ body{
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
+  cursor: pointer;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -85,20 +88,7 @@ body{
   background-color: red;
 }
 
-#ourWords{
-	font-size: 20px;
-	color: white;
-	text-align: center;
-	border: 5px solid transparent;
-	background-color: brown;
- 	margin: auto;
- 	margin-top: 1%;
-	width: 80%;
-	padding: 2%;
-	border-radius: 15px;
-}
-
-.entries{
+.entrees{
   position: relative;
   font-size: 20px;
   color: white;
@@ -121,7 +111,7 @@ body{
   background-color: brown;
   margin: auto;
   width: 70%;
-  margin-top: 25%;
+  margin-top: 10%;
   border-radius: 15px;
   background-color: none;
 }
@@ -133,7 +123,7 @@ body{
   float: right;
 }
 
-.tomato {
+.dishes {
   width:155px;
   height: 110px;
   border-radius: 15%;  
@@ -146,7 +136,7 @@ body{
 .name {
   text-align: center;
   display: inline;
-  margin-left: 40%;
+  margin-left: 30%;
   
 }
 
@@ -165,18 +155,81 @@ body{
 
 }
 
+#ourWords{
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	border: 5px solid transparent;
+	background-color: brown;
+ 	margin: auto;
+ 	margin-top: 1%;
+	width: 80%;
+	padding: 2%;
+	border-radius: 15px;
+}
+
 .cart{
-	color:white;
-	font-size: 40px;
+  color:white;
+  font-size: 40px;
 }
 .cartAdd{
-	font-size: 15px;
+  font-size: 15px;
+}
+
+.sum {
+    margin-right: 4%;
+    color: white;
+  text-align: right;
+  display: inline;
+  float: right;
+}
+
+#Ingredients{
+  margin-left: 30%;
+}
+
+#checkoutDiv {
+  float: right;
+  margin-right: 2%;
+}
+
+.receipt{
+  background-color: white;
+  background-image: url('entreesImages/istockphoto-614741344-1024x1024.jpg');
+  border: 5px solid black;
+  width: 500px;
+  height: auto;
+  position: relative;
+  margin: 20px;
+  margin-top: 100px;
+  margin-left: 30%;
+  margin-bottom: auto;
+  padding-bottom: auto;
+  font-family: sans-serif;
+  font-size: 25px;
+}
+
+#receiptBtn{
+  margin-left: 90%;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+  margin-top: 2%;
+  margin-right: 2%
+}
+
+.listItem{
+  list-style-type: none;
+
+}
+
+#totalText, #text5{
+  color: green;
+}
+
+#totalNum{
+  margin-bottom: 5%;
 }
 
 
-#text2{
-	margin-top: 45%;
-}
-#text3{
-	margin-top: 50%;
-}
